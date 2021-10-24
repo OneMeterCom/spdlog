@@ -5,6 +5,10 @@
 sudo: required
 language: cpp
 
+branches:
+  only:
+    - build_is_disabled
+
 # gcc t
 addons: &gcc48
   apt:
